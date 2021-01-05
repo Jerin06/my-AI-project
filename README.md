@@ -1,80 +1,59 @@
-# EXPERIMENT: Sound Art with AI
-**Final project for the Building AI course**
 
-I wanted to do something with machine learning and sound. I also wanted to learn how to make use of open source code shared in Github.
+# Project Title
 
-So I downloaded [the AI Drum Machine](https://github.com/googlecreativelab/aiexperiments-drum-machine), learned to make it work and added new sounds to it.
+This is the markdown template for the final project of the Building AI course, created by Reaktor Innovations and University of Helsinki.
 
 ## Summary
 
-* I wanted to learn about AI methods and classifying sound
-* The project has a sonic outcome, which is interesting
-* I wanted to learn how to experiment with open source code shared in Github.
-* I wanted to work with code in my project but I'm not experienced enough to write my own code
+Describe briefly in 2-3 sentences what your project is about. About 250 characters is a nice length! 
 
-### Problems it will solve
 
-Which problems does your idea solve? How common or frequent is this problem?
+## Problems it will solve
+
+Which problems does your idea solve? How common or frequent is this problem? What is your personal motivation? Why is this topic important or interesting?
 
 This is how you make a list, if you need one:
 * problem 1
 * problem 2
 * etc.
 
-This is how you create code examples:
-```
-def main():
-   countries = ['Denmark', 'Finland', 'Iceland', 'Norway', 'Sweden']
-   pop = [5615000, 5439000, 324000, 5080000, 9609000]   # not actually needed in this exercise...
-   fishers = [1891, 2652, 3800, 11611, 1757]
 
-   totPop = sum(pop)
-   totFish = sum(fishers)
+## How is it used?
 
-   # write your solution here
+Describe the process of using the solution. In what kind situations is the solution needed (environment, time, etc.)? Who are the users, what kinds of needs should be taken into account?
 
-   for i in range(len(countries)):
-      print("%s %.2f%%" % (countries[i], 100.0))    # current just prints 100%
+Images will make your README look nice!
+Once you upload an image to your repository, you can link link to it like this:
+![Cat](https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg)
 
-main()
-```
-
-### How is it used?
-
-* Find project in [Experiments with Google](https://experiments.withgoogle.com/experiments)
-* Download (or fork) project [from the repository](https://github.com/googlecreativelab/aiexperiments-drum-machine)
-* Set up node and webpack
-* import sounds from the Sonic Pi sound collection
-* run the program and experiment!
-
+If you need to resize images, you have to use an HTML tag, like this:
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg" width="300">
 
 ## Challenges
 
-My skills are limited, it will take me a while before I can contribute to the project through Github
+What could go wrong? Which limitations and ethical considerations should be taken into account when deploying a solution like this?
 
-
-### Data sources
-Code created by [Kyle McDonald](https://github.com/kylemcdonald), [Manny Tan](https://github.com/mannytan), [Yotam Mann](https://github.com/tambien), and [Google Creative Lab](https://github.com/googlecreativelab/). 
-Copyright 2016 Google Inc. All Rights Reserved.
-
-Licensed under the Apache License, Version 2.0
-
-Sound samples: 
-* freesound.org, only samples licenced [CC0](https://creativecommons.org/publicdomain/zero/1.0/)
-* samples from Sonic Pi programming environment, licenced [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/)
-
-
-## AI methods used
-
-t-SNE ( t-Distributed Stochastic Neighbor Embedding)
-
-I had no idea something like this existed, now I'm going through a [description of the method here](https://medium.com/analytics-vidhya/what-is-t-sne-37bfb920e431).
-
-And I'm trying to identify concepts that are now familiar to me thanks to Elements of AI courses.
-
-t-SNE concepts I'm somehow familiar with
-
-nearest neighbor, Euclidian distance, clustering, supervised learning...
+## Data sources
+Where does your data come from? Do you collect it yourself or do you use data collected by someone else?
+If you need to use links, here's an example:
+[Twitter API](https://developer.twitter.com/en/docs)
 
 ## What next?
-I'd like to improve the drum sequencer part in this project. Adding the option to use some Garageband type of rhythm patterns which are musically more pleasant would be great.
+
+What kind of skills, what kind of assistance would you  need to move on? How finished should the solution be in order to be good enough?
+
+## Missing from this template
+
+* more formatting options: code blocks
+* how to add files, images, code
+
+
+
+
+## Acknowledgments
+
+* list here the sources of inspiration 
+* do not use code, images, data etc. from others without permission
+* when you have permission to use other people's materials, always mention the original creator and the open source / Creative Commons licence they've used
+  For example: Sleeping Cat on Her Back by Umberto Salvagnin / [CC BY 2.0](https://creativecommons.org/licenses/by/2.0)
+* etc
